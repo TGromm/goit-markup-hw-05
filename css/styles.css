@@ -788,8 +788,10 @@ img {
 
 .footer-form {
   margin-left: auto;
+  display: flex;
+  gap: 24px;
 }
-.footer-div-form p {
+.footer-prg-form {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -798,9 +800,8 @@ img {
   color: #ffffff;
 }
 
-.footer-form {
-  display: flex;
-  gap: 24px;
+.label-footer-subscribe{
+
 }
 .footer-subscribe {
   width: 264px;
@@ -814,7 +815,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
-  margin-left: ;
+  
 }
 .button-subscribe {
   display: flex; 
