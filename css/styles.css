@@ -274,6 +274,17 @@ img {
   align-items: center;
   gap: 40px;
 }
+@media screen and (min-width: 768px) {
+  .address-list {
+    gap: 12px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .address-list {
+    gap: 40px;
+  }
+}
+
 .address-link-mob {
   display: block;
   padding: 24px 0 48px;
