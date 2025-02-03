@@ -476,15 +476,17 @@ img {
 }
 @media screen and (min-width: 1158px) {
   .text {
-    letter-spacing: 0.01em; /*має бути 0,02, але на vp текст на третьому елементі виходить за 72 px*/
+    font-weight: 400;
+    letter-spacing: 0.01em;
   }
 }
+
+/*має бути 0,02, але на vp текст на третьому елементі виходить за 72 px*/
 
 /*-------team-----------*/
 .section.team {
   display: flex;
   background: #f4f4fd;
-  /*align-items: center;*/
 }
 
 .team-name {
